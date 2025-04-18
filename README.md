@@ -10,16 +10,15 @@ A reproducible data‑science pipeline that cleans a synthetic digital‑wallet 
 
 ## 🗺️  Table of Contents
 1. [Project Overview](#project-overview)  
-2. [Fraud Indicators](#fraud-indicators)  
-3. [Repository Layout](#repository-layout)  
-4. [Dataset](#dataset)  
-5. [Environment Setup](#environment-setup)  
-6. [Quick Start](#quick-start)  
-7. [Usage Guide](#usage-guide)  
-8. [Key Results](#key-results)  
-9. [Project Roadmap](#project-roadmap)  
-10. [Contributing](#contributing)  
-11. [License](#license)  
+2. [Fraud Indicators](#fraud-indicators)   
+3. [Dataset](#dataset)  
+4. [Environment Setup](#environment-setup)  
+5. [Quick Start](#quick-start)  
+6. [Usage Guide](#usage-guide)  
+7. [Key Results](#key-results)  
+8. [Project Roadmap](#project-roadmap)  
+9. [Contributing](#contributing)  
+10. [License](#license)  
 
 ---
 
