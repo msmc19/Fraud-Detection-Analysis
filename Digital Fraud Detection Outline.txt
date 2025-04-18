@@ -1,0 +1,33 @@
+**Fraud Indicators**
+
+1. High Transaction Amounts
+> Rationale: Fraudulent transactions often involve unusually high amounts compared to typical user transactions.
+2. Frequent Transactions in Short Time Periods
+> Rationale: Rapid transactions within a short timeframe could indicate automated or bot activity, common in fraudulent behavior.
+3. Unusual Location for User's Transactions
+> Rationale: Transactions occurring in different geographic regions from a user’s regular transactions may signal fraud.
+4. Irregular Product Category Purchases
+> Rationale: Fraudsters may purchase items outside a user’s typical spending categories.
+5. Multiple Payment Methods for a Single User
+> Rationale: Users generally have a preferred payment method; multiple methods could indicate fraud.
+
+**Data Cleaning Tasks**
+
+1. Handle Missing Values
+> Although the dataset is synthetic, it’s still worth checking for missing or null values in each column.
+2. Detect and Correct Outliers
+> Outliers, especially in transaction_amount, can skew your analysis.
+3. Standardize Date and Time Formats
+> Ensure transaction_date is in a consistent datetime format.
+4. Normalize Categorical Data
+> Standardize categorical entries in columns like product_category and payment_method to ensure consistency (e.g., avoid "Credit Card" vs. "credit card").
+5. Detect and Remove Duplicates
+> Duplicate transactions can lead to misleading analysis, particularly for fraud detection.
+6. Validate Numerical Data Types
+> Ensure numerical columns (e.g., transaction_amount) are of the correct numeric type.
+7. Filter Unrealistic Values
+> Set logical limits on numerical fields, such as capping or adjusting very high values in transaction_amount that don't align with typical transaction data.
+8. Address Inconsistent Location Entries
+> Check for location inconsistencies if location data (e.g., country codes or city names) is used.
+9. Create Fraud Indicators
+> Some preprocessing can directly involve creating features that will later be used to identify fraud.
