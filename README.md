@@ -47,25 +47,6 @@ Parameters (σ, k, Δt, etc.) are tunable in the notebooks.
 
 ---
 
-## 📂  Repository Layout
-
-fraud-detection-wallet/
-├── data/                                  # raw & interim CSVs  (git‑ignored)
-│   ├── digital_wallet_transactions.csv
-│   └── cleaned_digital_wallet_transactions.csv
-├── notebooks/
-│   ├── fraud_indicators.ipynb             # EDA + feature engineering
-│   ├── fraud_indicators_3.ipynb           # indicator tuning experiments
-│   ├── fraud_indicator4.ipynb             # final scoring & output
-│   └── visualization*.ipynb               # Matplotlib/Plotly explorations
-├── Fraud_Analysis_Tableau.twb             # interactive KPI & geo dashboards
-├── docs/
-│   ├── Final Report – Fraud Detection.pdf
-│   ├── Final Presentation Documentation.docx
-│   └── Digital Fraud Detection Outline.txt
-├── requirements.txt
-└── README.md
-
 ### 📊 Dataset
 * **Source**: Synthetic digital‑wallet transactions (Kaggle)  
 * **Size**: ≈ 250 000 rows × 19 columns  
