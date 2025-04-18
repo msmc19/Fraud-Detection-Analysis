@@ -48,7 +48,7 @@ Parameters (σ, k, Δt, etc.) are tunable in the notebooks.
 ---
 
 ## 📂  Repository Layout
-```text
+
 fraud-detection-wallet/
 ├── data/                                  # raw & interim CSVs  (git‑ignored)
 │   ├── digital_wallet_transactions.csv
@@ -75,7 +75,7 @@ fraud-detection-wallet/
 ---
 
 ### ⚙️ Environment Setup
-```bash
+
 git clone https://github.com/<your‑org>/fraud-detection-wallet.git
 cd fraud-detection-wallet
 
